@@ -1,2 +1,13 @@
 # nvim_configs
-gg wp
+theme:
+return {
+  {
+    "Mofiqul/vscode.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      vim.cmd("colorscheme vscode")
+    end,
+  },
+}
+
