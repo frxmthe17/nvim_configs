@@ -11,3 +11,6 @@ return {
   },
 }
 
+lsp set via :MasonInstall
+-- typescript-server-language
+-- gopls
